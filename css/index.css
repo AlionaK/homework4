@@ -1,11 +1,14 @@
-body {
+* {
+	margin: 0;
+	padding: 0;
+}body {
     background-color: #f8efe7
 }
 header {
     color:white;
     height: 450px;
     background-image: url("../img/background2.gif");
-     background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-size: 130% 110%;
   } 
