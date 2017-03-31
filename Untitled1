@@ -5,6 +5,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #f8efe7;
+    display: flex;
+    flex-flow: column wrap
     
 }
 header {
@@ -13,9 +15,8 @@ header {
     background-image: url("../img/background2.gif");
     background-size:100% 450px;
     background-position: center center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
+    
+    
    /*background-attachment: fixed; ХОЧУ FIXED ;-( */
 }
 #nav_logo {
@@ -24,9 +25,11 @@ header {
     
     
 }
-#button {
+#button {display: flex;
     height: 10%;
-    align-self: flex-end;
+    justify-content: flex-end;
+    padding-right: 8%;
+    padding-top: 3%;
 }
 #log_design{
     display: flex;
