@@ -21,6 +21,7 @@ header {
 }
 
 #nav_logo {
+    
     height: 10%;
     display: flex;
 }
@@ -59,13 +60,17 @@ nav {
     order: 1;
     padding-top: 10px;
     overflow: hidden;
+    
 }
-
 nav li {
     float: left;
     list-style: none;
 }
-
+ul {
+    display: flex;
+    padding:0;
+    flex-wrap: nowrap;
+    }
 nav li a {
     font-size: 1em;
     font-weight: bold;
@@ -135,20 +140,26 @@ main {
     width: 30%;
 }
 
-#contacts {
-    padding: 50px;
-}
+
 
 #contacts img {
     width: 60px;
     height: 60px;
 }
 
-#contacts iframe {
-    width: 700px;
-    height: 300px;
-}
 
+iframe{
+    padding-bottom: 10px;
+    padding-top: 10px;
+	width: 100%;
+	height: 550px;
+	border: 0;
+	
+}
+#contacts {
+        display: flex;
+    flex-flow: column wrap
+    }
 @media screen and (max-width: 720px) {
     header {
         height: 200px;
@@ -182,8 +193,12 @@ main {
         height: 50px;
         background-image: url("../img/menu.png");
         background-size: 100% 100%;
+        display: flex;
     }
-
+ul {
+    display: flex;
+    list-style-type: none
+}
     nav ul:hover {
         background-image: none;
     }
@@ -193,6 +208,7 @@ main {
         column-count: 1;
         padding: 10px;
     }
+    
 }
     
     
