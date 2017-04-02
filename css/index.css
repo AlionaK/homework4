@@ -195,20 +195,17 @@ iframe{
         background-size: 100% 100%;
         display: flex;
     }
-ul {
-    display: flex;
-    list-style-type: none
-}
-    nav ul:hover {
-        background-image: none;
+    ul {
+        display: flex;
+        list-style-type: none
     }
-
-
+        nav ul:hover {
+            background-image: none;
+        }
     #about p {
-        column-count: 1;
-        padding: 10px;
+            column-count: 1;
+            padding: 10px;
     }
-    
 }
     
     
